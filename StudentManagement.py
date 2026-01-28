@@ -15,9 +15,6 @@ if "students" not in st.session_state:
 
 st.divider()
 
-# -------------------------
-# 1. Add Student (FORM)
-# -------------------------
 st.subheader("1. Add Student")
 
 with st.form("add_student_form", clear_on_submit=True):
